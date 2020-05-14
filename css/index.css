@@ -65,6 +65,14 @@ img{
   margin-left: -17px;
 }
 
+.course-card-list .course-tip{
+  height: 300px;
+  line-height: 300px;
+  font-size: 22px;
+  color: #666;
+  text-align: center;
+}
+
 .course-card-list li{
   float: left;
   width: 236px;
@@ -155,6 +163,7 @@ img{
 .course-tab-wrap .search-input{
   width: 150px;
   height: 30px;
+  margin-bottom: 20px;
   border-radius: 3px;
   border: 1px solid #aaa;
   font-size: 14px;

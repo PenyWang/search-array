@@ -36,6 +36,33 @@ img{
   margin: 100px auto 0;
 }
 
+.course-tab-wrap .search-wrap{
+  position: relative;
+  width: 150px;
+}
+
+.course-tab-wrap .search-input{
+  width: 150px;
+  height: 30px;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  border: 1px solid #aaa;
+  font-size: 14px;
+  padding: 5px;
+  outline: none;
+}
+
+.course-tab-wrap .input-count{
+  position: absolute;
+  right: 3px;
+  position: absolute;
+  right: 3px;
+  top: 7px;
+  font-size: 12px;
+  color: #aaa;
+  transform: scale(.9);
+}
+
 .course-total-title{
   font-size: 20px;
   color: #000;
@@ -57,6 +84,10 @@ img{
 }
 
 .course-tab-filter-item.current{
+  color: #167ed9;
+}
+
+.course-tab-filter-item:hover{
   color: #167ed9;
 }
 
@@ -153,31 +184,4 @@ img{
   margin-left: 10px;
   font-size: 12px;
   color: #999;
-}
-
-.course-tab-wrap .search-wrap{
-  position: relative;
-  width: 150px;
-}
-
-.course-tab-wrap .search-input{
-  width: 150px;
-  height: 30px;
-  margin-bottom: 20px;
-  border-radius: 3px;
-  border: 1px solid #aaa;
-  font-size: 14px;
-  padding: 5px;
-  outline: none;
-}
-
-.course-tab-wrap .input-count{
-  position: absolute;
-  right: 3px;
-  position: absolute;
-  right: 3px;
-  top: 7px;
-  font-size: 12px;
-  color: #aaa;
-  transform: scale(.9);
 }
